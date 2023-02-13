@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int array[4]={2,4,6,8};
+
+    int *p=array;
+
+    cout<<*p;
+    cout<<"value of postition 2  is "<<*(p+1)<<endl;
+    cout<<"value of position 3  is "<<*(p+2)<<endl;
+}
